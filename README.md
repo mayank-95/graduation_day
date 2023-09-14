@@ -11,16 +11,6 @@ Your task is to determine the following:
 1. The number of ways to attend classes over N days.
 2. The probability that you will miss your graduation ceremony.
 
-## Solution
-
-### 1. Number of Ways to Attend Classes
-
-To calculate the number of ways to attend classes over N days, we need to find the total number of valid attendance patterns. We can solve this problem using dynamic programming.
-
-### 2. Probability of Missing Graduation Ceremony
-
-To calculate the probability of missing your graduation ceremony, we need to find the number of invalid attendance patterns (patterns where you miss the graduation ceremony) and then calculate the probability as the ratio of invalid patterns to the total number of patterns.
-
 ### String Format for the Solution
 
 The solution should be represented in the string format as "Answer of (2) / Answer of (1)", where:
@@ -29,7 +19,7 @@ The solution should be represented in the string format as "Answer of (2) / Answ
 
 ## How to Use
 
-You can use the provided solution to calculate the answers for different values of N by providing the input value of N to the solution algorithm. The algorithm will return the answers in the specified string format.
+python main.py
 
 ## Test Cases
 
@@ -46,8 +36,4 @@ You can find the implementation of the solution in the code files provided with 
 
 ## Author
 
-This README and the solution were created by [Your Name].
-
----
-
-Feel free to replace "[Your Name]" with the actual author's name or any other additional information you want to include in the README file.
+This README and the solution were created by Mayank.
