@@ -22,7 +22,7 @@ def main():
 
     # Input N (the last day of the academic year)
     N = int(input("Enter the last day of the academic year (N): "))
-    if N<4:
+    if N<5:
         print("invalid value- number of days should be atleast 5 as per constraints")
         return
     ways, probability = count_ways_and_missed_probability(N)
