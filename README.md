@@ -19,7 +19,7 @@ The solution should be represented in the string format as "Answer of (2) / Answ
 
 ## How to Use
 
-python main.py
+`python main.py`
 
 ## Test Cases
 
